@@ -29,6 +29,7 @@ var checkForMatch = function() {
 	} else {
 		window.alert("Sorry, try again.");
 	}
+	window.location.reload(true);
 
 };
 
@@ -45,6 +46,8 @@ console.log(cards[cardId].cardImage);
 console.log(cards[cardId].suit);
 
 };
+
+	
 
 var createBoard = function() {
 	//for loop to loop through the cards array.
@@ -63,4 +66,6 @@ var createBoard = function() {
 	}
 };
 
-createBoard();	
+createBoard();
+
+
